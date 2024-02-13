@@ -1,0 +1,19 @@
+.ul-tab {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .li-tab {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    border-bottom: 2px solid #ccc;
+    color: #555;
+  }
+  
+  .active-tab {
+    border-bottom: 2px solid #BF0404;
+    color: #BF0404;
+  }

@@ -1,24 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ChartComponent from './components/ChartComponent';
+import TabConmponent from './components/tabs/TabConmponent';
+import DateRangePicker from './components/DateRangePicker';
+import BoardEditor from './components/BoardEditor';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ChartComponent/>
+      <TabConmponent/>
+      <DateRangePicker/>
+      <BoardEditor/>
     </div>
   );
 }

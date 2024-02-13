@@ -1,0 +1,29 @@
+.chart-container {
+    position: relative;
+}
+  
+.progress-bar-container {
+    width: 450px;
+    height: 10px;
+    background-color: #eee;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.progress-bar {
+height: 100%;
+border-radius: 10px;
+}
+  
+.horizontal-chart {
+display: flex;
+}
+  
+.chart-item {
+margin-right: 10px;
+}
+
+.color-block{
+    margin: 30px;
+}
